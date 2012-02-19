@@ -67,7 +67,8 @@ class Parser(object):
                     if headings[j]:
                         db_field = self.fields[headings[j]]
 
-                        value = csv_lines[i][j]
+                        value = csv_lines[i][j].strip()
+
                         if db_field.endswith('_date'):
                             for date_input_format in settings.DATE_INPUT_FORMATS:
                                 try:
