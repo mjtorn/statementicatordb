@@ -108,9 +108,16 @@ class Parser(object):
 
         logger.info('SHOWTIME')
 
+        ## Assume we have all BICs
+        self.bank = models.Bank.objects.get(bic=self.bic)
+
         ## first line contains account number
         ban_line = self.lines.pop(0)
         self.ban = ban_line.split()[-1]
+
+        ## Make sure we exist
+        self.account, created = models.Account.objects.get_or_create(bank=self.bank, number=self.ban)
+
         ## followed by an empty one
         self.lines.pop(0)
 
