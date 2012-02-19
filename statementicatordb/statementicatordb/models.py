@@ -24,7 +24,8 @@ class Account(models.Model):
     bank = models.ForeignKey(Bank, null=True, blank=True, default=None)
 
     ## Not sure how long IBANs or others can be
-    number = models.CharField(max_length=32)
+    ## or if different banks can have the same numbers; probably not
+    number = models.CharField(max_length=32, unique=True)
 
     def __unicode__(self):
         return u'%s' % self.number
