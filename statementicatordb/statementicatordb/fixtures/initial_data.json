@@ -1,0 +1,99 @@
+[
+    {
+        "pk": 1, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "Nordea Pankki", 
+            "bic": "NDEAFIHH"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "Aktia", 
+            "bic": "HELSFIHH"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "OKO", 
+            "bic": "OKOYFIHH"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "\u00c5landsbanken", 
+            "bic": "AABAFI22"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "Sampo Pankki", 
+            "bic": "DABAFIHH"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "Handelsbanken", 
+            "bic": "HANDFIHH"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "Skandinaviska Enskilda Banken", 
+            "bic": "ESSEFIHX"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "Danske Bank", 
+            "bic": "DABAFIHX"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "DnB NOR Bank", 
+            "bic": "DNBAFIHX"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "Tapiola", 
+            "bic": "TAPIFI22"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "Swedbank", 
+            "bic": "SWEDFIHH"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "statementicatordb.bank", 
+        "fields": {
+            "name": "S-Pankki", 
+            "bic": "SBANFIHH"
+        }
+    }
+]
+
